@@ -3,7 +3,14 @@ guid: b50b40923b5369645a5a617bf6f184e1
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - ChipBagRotation: {instanceID: 0}
+  - psShine: {instanceID: 0}
+  - hpBar: {instanceID: 0}
+  - final: {instanceID: 0}
+  - textCount: {instanceID: 0}
+  - soundZombie: {instanceID: 0}
+  - soundHit: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

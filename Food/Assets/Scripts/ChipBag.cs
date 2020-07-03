@@ -39,7 +39,8 @@ public class ChipBag : MonoBehaviour
         Attack();
     }
     private void Attack()
-    { if (target && hp > 0)
+    { 
+        if (target && hp > 0)
         {
             Vector3 pos = target.position;
             pos.y = ChipBagRotation.position.y;
@@ -47,7 +48,7 @@ public class ChipBag : MonoBehaviour
             ChipBagRotation.LookAt(pos);
 
             count++;
-            aud.PlayOneShot(soundZombie);
+            
         }
             }
 
@@ -65,7 +66,7 @@ public class ChipBag : MonoBehaviour
     }
     public void Replay()
     {
-        SceneManager.LoadScene("遊戲場景");
+        SceneManager.LoadScene("1224");
     }
     public void Quit()
     {
